@@ -1,0 +1,130 @@
+/* DEV TOOLS */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #969696;
+  background-color: #fafafa;
+}
+
+.container .left,
+.container .right {
+  width: 50%;
+  margin: 0 10px;
+}
+
+.logInForm,
+.logIn {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.left img {
+  transform: translateY(10%);
+}
+
+.logo {
+  margin-top: 10%;
+  width: 60%;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+}
+
+.logInForm,
+.logIn {
+  border: 1px solid #e0e0e0;
+  margin-top: 10px;
+}
+
+.form * {
+  margin: 5px 25px 5px 25px;
+  height: 25px;
+}
+
+.form input {
+  padding-left: 5px;
+}
+
+.logInButton {
+  background-color: #3897f0;
+  color: white;
+  width: 85%;
+  height: 30px;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+  color: #969696;
+  font-weight: bold;
+}
+
+.logIn a {
+  color: #3897f0;
+}
+
+.orContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px 25px 18px;
+}
+
+.or {
+  color: black;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.line {
+  background-color: #e0e0e0;
+  width: 140px;
+  height: 1px;
+  transform: translateY(7px);
+}
+
+.signIn {
+  margin: 0px 30px 15px 30px;
+  font-size: 1.2em;
+}
+
+.bottomText {
+  margin: 0 30px 0 30px;
+}
+
+.divider {
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  color: #003569;
+  padding: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .left {
+    display: none;
+  }
+  .line {
+    width: 100px;
+  }
+}
